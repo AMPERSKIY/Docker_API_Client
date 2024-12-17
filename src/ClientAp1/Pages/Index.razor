@@ -1,0 +1,68 @@
+﻿@page "/"
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIBANCE</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval';" />
+</head>
+
+<body>
+    <div class="imge">
+        <img src="https://cdn.thingiverse.com/assets/b4/0b/f6/01/45/p86lqp.jpg" alt="Background image" />
+    </div>
+    <div id="rectangle"></div>
+    <div class="texts">
+        <h1>Welcome to DIBANCE!</h1>
+    </div>
+    <div class="butt">
+        <a href="/users" class="reBut">Register</a>
+        <a href="/login" class="loBut">Login</a>
+    </div>
+    <a class="link" href="/users">Пользователи</a>
+
+    <!-- Вывод списка пользователей, если данные получены -->
+    @if (result != null && result.Length > 0)
+    {
+        <ul>
+            @foreach (var user in result)
+            {
+                <li>@user.Username (@user.FirstName @user.LastName)</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>Loading users...</p>
+    }
+</body>
+
+@code {
+    public class User
+    {
+        public int Id { get; set; }
+        public string Username { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string PasswordHash { get; set; } = null!;
+        public string FirstName { get; set; } = null!;
+        public string LastName { get; set; } = null!;
+        public DateTime Birthdate { get; set; }
+        public string Gender { get; set; } = null!;
+        public string ProfilePicture { get; set; } = null!;
+        public string Bio { get; set; } = null!;
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+    }
+
+    private User[] result = new User[] { };
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = new HttpClient
+            {
+                BaseAddress = new Uri("https://api-for-socnetwork-1.onrender.com")
+            };
+
+        result = await client.GetFromJsonAsync<User[]>("api/User1");
+    }
+}
