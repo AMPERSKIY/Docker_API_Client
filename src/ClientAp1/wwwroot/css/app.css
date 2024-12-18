@@ -1,7 +1,11 @@
+/* Основной фон страницы */
 body {
     background: #030303;
+    margin: 0; /* Убираем отступы по умолчанию */
+    font-family: Arial, sans-serif; /* Добавляем шрифт */
 }
 
+/* Контейнер для изображения */
 .imge {
     position: absolute;
     left: 0;
@@ -11,19 +15,23 @@ body {
     overflow: hidden;
 }
 
+    /* Изображение внутри контейнера */
     .imge img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: cover; /* Масштабируем изображение, чтобы оно заполнило контейнер */
     }
 
+/* Заголовок */
 .texts h1 {
     position: absolute;
     right: 225px;
     top: 50px;
     color: white;
+    font-size: 2.5rem; /* Увеличиваем размер шрифта */
 }
 
+/* Общие стили для кнопок */
 .reBut,
 .loBut {
     position: absolute;
@@ -39,66 +47,81 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 0, 0), rgb(200, 0, 0)); /* Красные оттенки */
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
+/* Стили для кнопки "Регистрация" */
 .reBut {
     right: 500px;
     top: 60%;
-    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 0, 0), rgb(200, 0, 0)) !important; /* Red shades */
 }
 
     .reBut:hover {
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(175, 0, 0), rgb(125, 0, 0)) !important; /* Darker red on hover */
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(175, 0, 0), rgb(125, 0, 0)); /* Темно-красные оттенки при наведении */
         transform: scale(1.05);
-        color: rgb(255, 0, 0) !important; /* Red text on hover */
+        color: rgb(255, 0, 0) !important; /* Красный текст при наведении */
     }
 
     .reBut:active {
-        transform: scale(0.95);
+        transform: scale(0.95); /* Уменьшаем кнопку при нажатии */
     }
 
+/* Стили для кнопки "Логин" */
 .loBut {
     right: 200px;
     top: 60%;
-    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255 129 0), #dc3545); /* Red shades */
+    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 129, 0), #dc3545); /* Оранжевые и красные оттенки */
 }
 
     .loBut:hover {
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255 129 0), #dc3545); /* Darker red on hover */
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 129, 0), #dc3545); /* Темно-красные оттенки при наведении */
         transform: scale(1.05);
-        color: rgb(255, 0, 0) !important; /* Red text on hover */
+        color: rgb(255, 0, 0) !important; /* Красный текст при наведении */
     }
 
     .loBut:active {
-        transform: scale(0.95);
+        transform: scale(0.95); /* Уменьшаем кнопку при нажатии */
     }
 
+/* Подзаголовок */
 .texts h3 {
     position: absolute;
     top: 400px;
     right: 100px;
     left: 1055px;
     color: white;
+    font-size: 1.2rem; /* Увеличиваем размер шрифта */
 }
 
+/* Второй подзаголовок */
 .texts h2 {
     position: absolute;
     top: 467px;
     right: 380px;
     color: white;
+    font-size: 1.5rem; /* Увеличиваем размер шрифта */
 }
 
+/* Параграф */
 .texts p {
     position: absolute;
     top: 150px;
     right: 100px;
     left: 55%;
     color: white;
+    font-size: 1rem; /* Увеличиваем размер шрифта */
+    line-height: 1.5; /* Увеличиваем межстрочный интервал */
 }
 
+/* Ошибка Blazor */
 #blazor-error-ui {
     background: lightyellow;
     bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
 
     #blazor-error-ui .dismiss {
@@ -108,10 +131,12 @@ body {
         top: 0.5rem;
     }
 
+/* Граница ошибки Blazor */
 .blazor-error-boundary {
     background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNDkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIG92ZXJmbG93PSJoaWRkZW4iPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDAiPjxyZWN0IHg9IjIzNSIgeT0iNTEiIHdpZHRoPSI1NiIgaGVpZ2h0PSI0OSIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMzUgLTUxKSI+PHBhdGggZD0iTTI2My41MDYgNTFDMjY0LjcxNyA1MSAyNjUuODEzIDUxLjQ4MzcgMjY2LjYwNiA1Mi4yNjU4TDI2Ny4wNTIgNTIuNzk4NyAyNjcuNTM5IDUzLjYyODMgMjkwLjE4NSA5Mi4xODMxIDI5MC41NDUgOTIuNzk1IDI5MC42NTYgOTIuOTk2QzI5MC88Lz4g) no-repeat 1rem/1.8rem, #b32121;
     padding: 1rem 1rem 1rem 3.7rem;
     color: white;
+    text-align: center;
 }
 
     .blazor-error-boundary::after {

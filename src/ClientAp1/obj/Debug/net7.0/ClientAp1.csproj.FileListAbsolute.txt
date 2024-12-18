@@ -2142,3 +2142,4 @@ C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\ClientAp1\obj\Debug\net7.
 C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\ClientAp1\obj\Debug\net7.0\refint\ClientAp1.dll
 C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\ClientAp1\obj\Debug\net7.0\ClientAp1.pdb
 C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\ClientAp1\obj\Debug\net7.0\ref\ClientAp1.dll
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\ClientAp1\obj\Debug\net7.0\ClientAp1.sourcelink.json

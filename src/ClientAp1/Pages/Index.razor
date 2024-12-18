@@ -9,32 +9,18 @@
 
 <body>
     <div class="imge">
-        <img src="https://cdn.thingiverse.com/assets/b4/0b/f6/01/45/p86lqp.jpg" alt="Background image" />
+        <img src="https://avatars.mds.yandex.net/i?id=3c98fbd19751842e0c90e89a4ee4b8f8_l-9067611-images-thumbs&n=13" alt="Background image" />
     </div>
     <div id="rectangle"></div>
     <div class="texts">
-        <h1>Welcome to DIBANCE!</h1>
+        <h1>WELCOME TO DIBANCE!</h1>
+        <h3>MARKETPLACE NFT</h3>
     </div>
     <div class="butt">
         <a href="/users" class="reBut">Register</a>
         <a href="/login" class="loBut">Login</a>
     </div>
     <a class="link" href="/users">Пользователи</a>
-
-    <!-- Вывод списка пользователей, если данные получены -->
-    @if (result != null && result.Length > 0)
-    {
-        <ul>
-            @foreach (var user in result)
-            {
-                <li>@user.Username (@user.FirstName @user.LastName)</li>
-            }
-        </ul>
-    }
-    else
-    {
-        <p>Loading users...</p>
-    }
 </body>
 
 @code {
