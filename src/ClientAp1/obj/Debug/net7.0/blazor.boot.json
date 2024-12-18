@@ -1,15 +1,16 @@
 {
   "entryAssembly": "ClientAp1",
   "resources": {
-    "hash": "sha256-qt8HhcLtUs7yclVDJAz0W0RJ6o4bzqxelRiwivY/7PM=",
+    "hash": "sha256-ln/M9uXBy9wFAzH+ECUwOFlTX/C6LXR5lNz9JfppdZQ=",
     "runtime": {
-      "dotnet.7.0.20.rr4j7ijv5f.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
+      "dotnet.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
       "dotnet.timezones.blat": "sha256-gbATD5HDsHYtW8vdPYh9iSBY4O5CjvMeCSF5xXWF1xo=",
       "dotnet.wasm": "sha256-2P6rVlE+GN7v/KBZsI/zwouhfpV38+1lEl5FMslgb4A=",
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
       "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
+    "coreAssembly": {},
     "assembly": {
       "BCrypt.Net-Next.dll": "sha256-EVufr/i5CaGgi2WzFQWOsYLAxMOnfBn81fTanaSdSmM=",
       "BouncyCastle.Cryptography.dll": "sha256-zuldM74dG2dDqQbkD/fSk1wJWO+ElmPK/3Fuvj3VjB8=",
@@ -270,14 +271,14 @@
       "mscorlib.dll": "sha256-HYyp9hO+GKFyupcEiY1PxtBBXbHzefsO3Q8RiQTaNCA=",
       "netstandard.dll": "sha256-N5CcC3sLzGBesbmeJAp5bwxABN9u7SwkIO5qfFjzoik=",
       "System.Private.CoreLib.dll": "sha256-bJS1DJmhjP7PvegYG+Z8O9EDtRY78HKinA3LUMVLlSQ=",
-      "ClientAp1.dll": "sha256-oz11f+w6N3812Fm9d3PFGgAGYjhMJw2nEo0iiNkP34w="
+      "ClientAp1.dll": "sha256-RJG74SEtWnlnr1n+/ZMnFara8LJJ3cRD5iEvTvsn9R8="
     },
     "pdb": {
-      "ClientAp1.pdb": "sha256-xI8gs8+yemfiQzhUy0zZLaaz6U+rBxE42cIZvY59cWA="
+      "ClientAp1.pdb": "sha256-8a0VhEpJiDeVrme8On6a/zdkHV1pDu0oWaJL3GVVSKY="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
-        "hash": "sha256-2P6rVlE+GN7v/KBZsI/zwouhfpV38+1lEl5FMslgb4A=",
+        "hash": "sha256-",
         "behavior": "dotnetwasm"
       }
     }

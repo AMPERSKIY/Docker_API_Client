@@ -8,10 +8,11 @@ body {
 /* Контейнер для изображения */
 .imge {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрируем изображение */
+    width: 50%; /* Уменьшаем ширину изображения */
+    height: auto; /* Автоматическая высота */
     overflow: hidden;
 }
 
@@ -35,8 +36,8 @@ body {
 .reBut,
 .loBut {
     position: absolute;
-    width: 100px;
-    height: 50px;
+    width: 150px; /* Увеличиваем ширину кнопок */
+    height: 60px; /* Увеличиваем высоту кнопок */
     color: white;
     border: 2px double transparent;
     font-size: 20px;
@@ -47,9 +48,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 0, 0), rgb(200, 0, 0)); /* Красные оттенки */
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+    background-color: #ff0000; /* Красный цвет */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
 }
 
 /* Стили для кнопки "Регистрация" */
@@ -59,9 +59,9 @@ body {
 }
 
     .reBut:hover {
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(175, 0, 0), rgb(125, 0, 0)); /* Темно-красные оттенки при наведении */
+        background-color: #cc0000; /* Темно-красный цвет при наведении */
         transform: scale(1.05);
-        color: rgb(255, 0, 0) !important; /* Красный текст при наведении */
+        color: white !important; /* Белый текст при наведении */
     }
 
     .reBut:active {
@@ -70,15 +70,15 @@ body {
 
 /* Стили для кнопки "Логин" */
 .loBut {
-    right: 200px;
+    right: 300px; /* Уменьшаем расстояние между кнопками */
     top: 60%;
-    background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 129, 0), #dc3545); /* Оранжевые и красные оттенки */
+    background-color: #ff0000; /* Красный цвет */
 }
 
     .loBut:hover {
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(255, 129, 0), #dc3545); /* Темно-красные оттенки при наведении */
+        background-color: #cc0000; /* Темно-красный цвет при наведении */
         transform: scale(1.05);
-        color: rgb(255, 0, 0) !important; /* Красный текст при наведении */
+        color: white !important; /* Белый текст при наведении */
     }
 
     .loBut:active {

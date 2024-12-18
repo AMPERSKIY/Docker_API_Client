@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "r5bNtakl+3U=",
+  "dgSpecHash": "2NDHAN+34Ks=",
   "success": true,
   "projectFilePath": "C:\\Users\\Дан\\Documents\\GitHub\\Docker_API_Client\\src\\ClientAp1\\ClientAp1.csproj",
   "expectedPackageFiles": [
@@ -95,7 +95,7 @@
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23401.1\\microsoft.net.illink.analyzers.7.0.100-1.23401.1.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23401.1\\microsoft.net.illink.tasks.7.0.100-1.23401.1.nupkg.sha512",
-    "C:\\Users\\Дан\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.11\\microsoft.net.sdk.webassembly.pack.8.0.11.nupkg.sha512",
+    "C:\\Users\\Дан\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.0\\microsoft.net.sdk.webassembly.pack.9.0.0.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
@@ -214,8 +214,30 @@
     "C:\\Users\\Дан\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Дан\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Дан\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Дан\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.20\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.20.nupkg.sha512"
+    "C:\\Users\\Дан\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ClientAp1 зависит от Microsoft.NET.ILLink.Analyzers (>= 7.0.100-1.23211.1), но версия Microsoft.NET.ILLink.Analyzers 7.0.100-1.23211.1 не найдена. Использовалась версия Microsoft.NET.ILLink.Analyzers 7.0.100-1.23401.1.",
+      "libraryId": "Microsoft.NET.ILLink.Analyzers",
+      "targetGraphs": [
+        "net7.0",
+        "net7.0/browser-wasm"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ClientAp1 зависит от Microsoft.NET.ILLink.Tasks (>= 7.0.100-1.23211.1), но версия Microsoft.NET.ILLink.Tasks 7.0.100-1.23211.1 не найдена. Использовалась версия Microsoft.NET.ILLink.Tasks 7.0.100-1.23401.1.",
+      "libraryId": "Microsoft.NET.ILLink.Tasks",
+      "targetGraphs": [
+        "net7.0",
+        "net7.0/browser-wasm"
+      ]
+    }
+  ]
 }
