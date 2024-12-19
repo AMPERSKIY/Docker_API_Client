@@ -70,7 +70,7 @@
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.18, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.RazorPages": {
               "target": "Package",
@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[9.0.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.22, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

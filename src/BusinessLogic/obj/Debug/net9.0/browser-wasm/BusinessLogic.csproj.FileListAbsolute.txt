@@ -1,0 +1,6 @@
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\BusinessLogic\obj\Debug\net9.0\browser-wasm\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\BusinessLogic\obj\Debug\net9.0\browser-wasm\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\BusinessLogic\obj\Debug\net9.0\browser-wasm\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\BusinessLogic\obj\Debug\net9.0\browser-wasm\BusinessLogic.AssemblyInfo.cs
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\BusinessLogic\obj\Debug\net9.0\browser-wasm\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\BusinessLogic\obj\Debug\net9.0\browser-wasm\BusinessLogic.sourcelink.json

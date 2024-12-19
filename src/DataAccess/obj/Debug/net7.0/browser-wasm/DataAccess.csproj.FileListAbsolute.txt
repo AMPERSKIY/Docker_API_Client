@@ -1,0 +1,6 @@
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\DataAccess\obj\Debug\net7.0\browser-wasm\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\DataAccess\obj\Debug\net7.0\browser-wasm\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\DataAccess\obj\Debug\net7.0\browser-wasm\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\DataAccess\obj\Debug\net7.0\browser-wasm\DataAccess.AssemblyInfo.cs
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\DataAccess\obj\Debug\net7.0\browser-wasm\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\DataAccess\obj\Debug\net7.0\browser-wasm\DataAccess.sourcelink.json

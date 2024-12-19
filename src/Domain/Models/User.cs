@@ -37,22 +37,22 @@ namespace Domain.Models
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
 
-        public bool AcceptTerms { get; set; }
-        public virtual Role Role { get; set; }
-        public string? VerificationToken { get; set; }
-        public DateTime? Verified {  get; set; }
-        public bool IsVerified => Verified.HasValue || PasswordReset.HasValue;
-        public string? ResetToken { get; set; }
-        public DateTime? ResetTokenExpires { get; set; }
-        public DateTime? PasswordReset {  get; set; }
-        public DateTime Created {  get; set; }
-        public DateTime? Updated { get; set; }
-        public List<RefreshToken> RefreshTokens { get; set; }
+        //public bool AcceptTerms { get; set; }
+        //public virtual Role Role { get; set; }
+        //public string? VerificationToken { get; set; }
+        //public DateTime? Verified { get; set; }
+        //public bool IsVerified => Verified.HasValue || PasswordReset.HasValue;
+        //public string? ResetToken { get; set; }
+        //public DateTime? ResetTokenExpires { get; set; }
+        //public DateTime? PasswordReset { get; set; }
+        //public DateTime Created { get; set; }
+        //public DateTime? Updated { get; set; }
+        //public List<RefreshToken> RefreshTokens { get; set; }
 
-        public bool OwnsToken(string token)
-        {
-            return this.RefreshTokens?.Find(x => x.Token == token) != null;
-        }
+        //public bool OwnsToken(string token)
+        //{
+        //    return this.RefreshTokens?.Find(x => x.Token == token) != null;
+        //}
 
 
         public virtual PrivacySetting? PrivacySetting { get; set; }

@@ -1,0 +1,6 @@
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\Domain\obj\Debug\net7.0\browser-wasm\Domain.csproj.AssemblyReference.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\Domain\obj\Debug\net7.0\browser-wasm\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\Domain\obj\Debug\net7.0\browser-wasm\Domain.AssemblyInfoInputs.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\Domain\obj\Debug\net7.0\browser-wasm\Domain.AssemblyInfo.cs
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\Domain\obj\Debug\net7.0\browser-wasm\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Дан\Documents\GitHub\Docker_API_Client\src\Domain\obj\Debug\net7.0\browser-wasm\Domain.sourcelink.json
